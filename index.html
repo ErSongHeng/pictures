@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Tiktok Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="drag-container">
+        <div id="spin-container">
+            <!-- Add your images (or video) here -->
+            <img src="pic1.jpg" alt="">
+            <img src="pic2.jpg" alt="">
+            <img src="pic3.jpg" alt="">
+            <img src="pic4.jpg" alt="">
+            <img src="pic5.jpg" alt="">
+            <video controls autoplay="autoplay" loop>
+                <source src="vid1.mp4" type="video/mp4">
+            </video>
+
+            <!-- Text at center of ground -->
+            <p>Some of my favourite photos of you, and one behind the scenes video HAHAHAHAHA</p>
+        </div>
+        <div id="ground"></div>
+    </div>
+
+    <div id="music-container"></div>
+
+    <!-- Include Matter.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+    <!-- Include TweenMax library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <!-- Include your custom script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
